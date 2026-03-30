@@ -63,13 +63,13 @@ Set-ADAccountPassword -Identity "username" `
 
 ## What I Learned
 
-PSOs apply to security groups not OUs — that distinction
+PSOs apply to security groups not OUs  that distinction
 matters when troubleshooting why a policy isn't applying.
 
 The Get-ADUserResultantPasswordPolicy command is the
 authoritative way to confirm what's actually being enforced
 on a user. The ADUC checkbox reflects default domain policy
-visually — not PSO settings.
+visually  not PSO settings.
 
 Setting maximum password age to 0 tells Active Directory
 the password never expires. Complexity and length requirements
@@ -81,10 +81,10 @@ do the work that rotation used to fake.
 
 In production environments tools like Specops Password Policy
 and Netwrix Password Policy Enforcer extend this concept with
-real time breach detection — checking every password against
+real time breach detection  checking every password against
 databases of billions of compromised credentials at the point
-of creation or reset. Same underlying principle, production
-grade execution.
+of creation or reset.
+
 
 ---
 
