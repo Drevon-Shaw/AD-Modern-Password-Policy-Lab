@@ -91,4 +91,4 @@ of creation or reset.
 ## Full Walkthrough
 
 Complete blog post with annotated screenshots:
-[Insert Medium link here]
+https://medium.com/@shawdrevon/ditching-password-expiration-implementing-modern-password-policy-in-active-directory-15203c20dfb3
